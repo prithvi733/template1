@@ -16,45 +16,55 @@ The objective of this guide is to demonstrate how to:
 ### **1. Open Disk Management**  
 - Press **Windows + X** → Click **Disk Management** 
 
- ![](./images/disk1.png)
+![image](https://github.com/user-attachments/assets/9aa78e70-a8cf-44a8-a7a0-7eaac0c69372)
+
 
 ### **2. Create a New VHD**  
 - Click **Action** (top menu) → **Create VHD**.  
 
-![](./images/disk2.png)
+![image](https://github.com/user-attachments/assets/50f24727-d73c-4954-ba52-7bdfdcccd5e7)
+
 
 ### **3. Choose File Location & Size**  
 - Click **Browse** and select where to save the VHD file (e.g, `C:\new VHD.vhd`)
 - Set the **size** (e.g: `1GB`) 
 - Choose **VHD (Fixed Size)** and Click **OK**
 
-![](./images/disk3.png)
+![image](https://github.com/user-attachments/assets/6f852ba5-1601-4866-9b9d-7f5df6fd8dd3)
+
 
 ### **4. Initialize the Disk**  
 - In **Disk Management**, find your new disk (marked as "Not Initialized").  
 
-![](./images/disk4.png) 
+![image](https://github.com/user-attachments/assets/2dfffbf5-f649-4034-950a-690e86ba1ac5)
+
 
 - Right-click the disk → Click **Initialize Disk**.
 
-![](./images/disk5.png)
+![image](https://github.com/user-attachments/assets/e9bffd52-078f-4f8b-9518-d688c48ae356)
+
 
 - Select **MBR (Master Boot Record)**. 
 
-![](./images/disk6.png)
+![image](https://github.com/user-attachments/assets/b185457d-c65b-4c68-87cb-8dcc04b1ed51)
+
 
 ### **5. Create & Format the Partition**  
 - Right-click the **Unallocated Space** → Click **New Simple Volume**.  
-![](./images/disk7.png)
-![](./images/disk8.png)
-![](./images/disk9.png)
+
+![image](https://github.com/user-attachments/assets/04adde83-cd05-433c-bb21-fdc4a46ff15f)
+
+![image](https://github.com/user-attachments/assets/88522c57-c36e-4ed4-8e32-5f92c4ec41da)
+
+![image](https://github.com/user-attachments/assets/c960e606-2dbe-49af-bde7-b2306c11c402)
 
 
 - Click **Next** → **Click on Mount in the following empty NTFS folder** → **Browse** → **Assign a drive letter (e.g., `C: or D:`)** → **New folder** → **OK**
 
-![](./images/disk10.png)
-![](./images/disk12.png)
-![](./images/disk11.png)
+![image](https://github.com/user-attachments/assets/8e8a011b-e085-4ceb-b394-a7d9224ddf0b)
+
+![image](https://github.com/user-attachments/assets/ed0bb61d-289a-433d-a37e-c740ef7133b6)
+
 
 - Click **next** → **Finish**. 
 
@@ -78,26 +88,30 @@ The objective of this guide is to demonstrate how to:
 - Launch **Autopsy** and **Run as a administrator**  
 - Click **Create New Case**.  
 
-![](./images/a1.png)
+![image](https://github.com/user-attachments/assets/5d9bd404-9b49-46f1-a43e-713265b2afed)
+
 
 - Enter a **Case Name** (e.g., `Autopsy1`).  
 - Choose a **Case Folder** location.  
 - Click **Next** → Click **Finish**.  
 
-![](./images/a2.png)
+![image](https://github.com/user-attachments/assets/9a87796b-9da2-40de-8e42-28c672314bbf)
+
 
 ### **2. Add the Virtual Disk as an Evidence Source**  
 - Click **Add Data Source**  → **Select Host**
 
-![](./images/a3.png)
+![image](https://github.com/user-attachments/assets/a4d14b60-5603-4ef6-950e-f94537b1918b)
+
 
 - Select **Local Disk** → **next** 
 
-![](./images/a4.png)
+![image](https://github.com/user-attachments/assets/e8d49368-5759-41e0-9511-1a3adcf8095b)
+
 
 - Select Disk → **Choose the VHD drive (`Drive1`)**
 
-![](./images/a5.png)
+![image](https://github.com/user-attachments/assets/59e57b17-f8be-437e-8659-27a2478c4a5d)
 
 - Click **Next** → Keep default settings → Click **Finish**.  
 - Wait for Autopsy to process the disk.  
@@ -105,12 +119,13 @@ The objective of this guide is to demonstrate how to:
 ### **3. Recover Deleted Files**  
 - Go to **File Views** (left panel).  
 
-![](./images/a6.png)
+![image](https://github.com/user-attachments/assets/011f5f15-38dc-4964-a44a-6de57331f469)
 
 - Click **Deleted Files** → Find your deleted images.  
 - Right-click an image → Click **Extract File**.  
 
-![](./images/a7.png)
+![image](https://github.com/user-attachments/assets/7f94b080-72c7-422c-b0ad-d0477e2cd48a)
+
 
 - Select a folder to see the recovered files (e.g., `C:\image_recovery`).  
 
